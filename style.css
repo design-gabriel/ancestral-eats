@@ -1,5 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background-color: #2F3035;
+  font-family: 'Josefin Slab', serif;
 }
 
 .container {
@@ -8,8 +14,13 @@ body {
 }
 
 header {
-  background-color: blue;
-  height: 118px;
+  height: 170px;
+  text-align: center;
+}
+
+.site-logo {
+  width: 180px;
+  height: 180px;
 }
 
 nav {
@@ -18,12 +29,24 @@ nav {
 }
 
 main {
-  background-color: orange;
   height: 400px;
+  text-align: center;
+  padding: 90px 240px 80px 240px;
 }
 
 footer {
   background-color: greenyellow;
   height: 100px;
+}
+
+h1 {
+  font-size: 80px;
+  color: white;
+}
+
+p {
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
 }
 
